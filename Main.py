@@ -15,14 +15,14 @@ db_cursor.execute("""
                 numero_frete INTEGER NOT NULL,
                 valor_frete DOUBLE NOT NULL,
                 nome_cliente TEXT NOT NULL,
-                destinatario TEXT,
-                endereco_origem TEXT,
-                endereco_destino TEXT,
-                produto TEXT,
-                quantidade INTEGER,
+                destinatario TEXT NOT NULL,
+                endereco_origem TEXT NOT NULL,
+                endereco_destino TEXT NOT NULL,
+                produto TEXT NOT NULL,
+                quantidade INTEGER NOT NULL,
                 motorista TEXT NOT NULL,
                 placa TEXT NOT NULL,
-                rota TEXT
+                rota TEXT NOT NULL
                 );
                 """)
 
@@ -44,7 +44,7 @@ def inserir_pedido():
         u_endereco_destino = input("Digite o endereço de destino: ")
         u_produto = input("Digite o nome do produto: ")
         u_quantidade = int(input("Digite a quantidade do produto: "))
-        u_motorista = input("Digite o nome do motorista responavel: ")
+        u_motorista = input("Digite o nome do motorista responsavel: ")
         u_placa = input("Digite a placa do caminhao: ")
         u_rota = input("Digite a rota que ser utilizada: ")
     
