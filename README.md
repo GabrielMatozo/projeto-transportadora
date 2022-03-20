@@ -12,7 +12,10 @@
 
 ### `pip install figlet`
 
-### 2. Para melhor visualização abrir em TELA CHEIA e deixar o tamanho da fonte em 10, caso contrário o `tabulate` não irá ficar como esperado por  conta do tamanho da tabela.
+### `pip install pyfiglet`
+
+
+### 2. Para melhor visualização abrir em TELA CHEIA e deixar o tamanho da fonte em 9, caso contrário o `tabulate` não irá ficar como esperado por conta do tamanho da tabela.
 
 
 
