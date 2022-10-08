@@ -1,6 +1,7 @@
 # Projeto Transportadora
+## Software de Gestão de Entregas
 
-### Um Projeto desenvolvido em Python para armazenamento de dados de pedidos para uma empresa de envio e entregas.
+### Um Projeto desenvolvido em Python para armazenamento de dados de pedidos para uma empresa de entregas.
 
 ### Foi utilizado o SQlite para criação e gerenciamento do banco de dados do programa.
 
