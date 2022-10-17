@@ -25,3 +25,5 @@
 ## ✌️ Contribuidores
 
 [GabrielMatozo](https://twitter.com/matoz0)
+[GustavoSantos](https://github.com/gustavoslvsantos)
+
